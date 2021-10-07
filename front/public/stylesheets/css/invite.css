@@ -1,0 +1,75 @@
+
+h1 {
+    font-family: "Passion-One_Regular";
+    color: white;  
+    margin: 0px;
+    font-size: max(3vw, 1em);
+    /* border: 1px solid seashell; */
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.centrale {
+    margin: 5%;
+    min-width: 40%;
+}
+
+.haut {
+    display: flex;
+    justify-content: center;
+}
+
+.gauche, .droite {
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    margin: 5px;
+    min-width: 49%;
+}
+
+.gauche {   
+    background-color: var(--light-plaque);
+    padding-top: 40%;
+}
+
+.droite {
+    background-color: var(--light-historique);
+    padding-bottom: 40%;
+    text-align: right;
+}
+
+.bas {
+    display: flex;
+    justify-content: center;
+}
+
+.centre {
+    background-color: var(--light-resume);
+    border-radius: 40px;
+    text-align: center;
+    margin: 5px;
+    min-width: 98%;
+    padding-top: 20%;
+}
+
+.tg { 
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.td {margin-right: 6%;}
+.bot {margin-bottom: 6%;}
+.top {margin-top: 6%;}
+
+@media (max-width: 960px) {
+    .td, .tg {
+        margin: 0px;
+        text-align: center;
+    }
+
+    .gauche, .droite {
+        padding: 20% 0 20% 0;
+    }
+}

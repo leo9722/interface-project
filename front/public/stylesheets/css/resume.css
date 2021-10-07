@@ -1,0 +1,66 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+  margin-top: 10%;
+  position: relative;
+  background:#303A60;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.gallery-cell {
+  width: 80%;
+  height: 500px;
+  margin-right: 10px;
+  background: #252D4D;
+  border-radius: 33px;
+  counter-increment: gallery-cell;
+}
+
+.titre{
+  position: fixed;
+  margin-top: 11%;
+  text-align: center;
+  font-family: "Passion-One_Regular";
+  font-size: max(2.3vw, 1.2em);
+  color: white;
+  background: #303A60;
+  border:none;
+  width: 15%;
+  border-radius: 10px;
+}
+
+
+.jour{
+  font-family: "Passion-One_Regular";
+  color: #ABBAFF;
+  text-align: center;
+  font-size: max(3.7vw, 2.7em);
+
+}
+
+.entree{
+  color: #ABBAFF;
+  text-align: center;
+  font-size: max(1.5vw, 1em);
+}
+
+.semaine{
+  position: fixed;
+  margin-top: 11%;
+  margin-left: 15%;
+  font-family: "Passion-One_Regular";
+  font-size: max(2.3vw, 1.2em);
+  color: white;
+  background: #98AAFF;
+  border:none;
+  width: 15%;
+  border-radius: 10px;
+}
+
+

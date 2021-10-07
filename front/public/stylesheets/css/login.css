@@ -1,0 +1,161 @@
+body,header{
+  background-color: var(--background);
+}
+
+#connect{
+	font-family: 'Raleway_Regular';
+	font-size : 15px;
+	color : #FFFFFF;
+	display: flex;
+  	justify-content: space-between;
+  	color: var(--light-resume);
+  	position: absolute;
+  	margin-left: 87%;
+  	top: 2%;
+	
+}
+#propos{
+	font-family: 'Raleway_Regular';
+	font-size : 15px;
+	color : #FFFFFF;
+	display: flex;
+  	justify-content: space-between;
+  	color: var(--light-resume);
+  	position: absolute;
+  	margin-left: 80%;
+  	top: 2%;
+}
+h3{
+  display: inline;
+}
+#title1{
+  font-family: 'Passion-One_Regular';
+  font-size : 40px;
+  color: var(--light-resume);
+}
+#title2{
+  font-family: 'Passion-One_Regular';
+  font-size : 40px;
+  color: var(--light-resume);
+}
+
+
+h1{
+display: inline;  
+}
+
+h2{
+display: inline;  
+font-family: "Passion-One_Regular";
+}
+
+.titre1{
+  
+  font-family: 'Passion-One_Regular';
+  font-size : 40px;
+  color: white;
+  
+}
+
+.titre2{
+  font-family: 'Passion-One_Regular';
+  font-size : 40px;
+  color: var(--light-plaque);
+}
+
+.ltitle{
+  font-family: 'Raleway_Regular';
+  font-size : 17px;
+  color : #FFFFFF;
+}
+
+.formulaire{
+background-color : var(--light-resume); 
+padding-left: 5%;
+padding-top: 30%;
+width: 20%;
+border-radius: 15px;
+margin-left: 35%;
+margin-top: 10%;
+position : fixed;
+}
+
+.block{
+  background-color : var(--light-resume); 
+  position: fixed;
+  top : 20%;
+  left: 37%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align:center;
+  border-radius: 20px;
+}
+
+
+.id{
+  font-family: 'Raleway_Regular';
+  font-size : 18px;
+  color: var(--light-plaque);
+  margin-top: 20%;
+  width: 80%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 5%;
+  border-radius: 8px;
+  background-color: var(--dark-resume);
+  border-color: var(--dark-resume);
+  border-style: none;
+}
+.pass{
+  font-family: 'Raleway_Regular';
+  font-size : 18px;
+  color: var(--light-plaque);
+  margin-top: 15%;
+  width: 80%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 5%;
+  border-radius: 8px;
+  background-color: var(--dark-resume);
+  border-style: none;
+}
+
+.in{
+  font-family: 'Raleway_Regular';
+  font-size : 18px;
+  margin-top: 10%;
+  margin-left: 50%;
+  width: 40%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 8px;
+  text-align:center;
+  background-color: var(--dark-resume);
+  color:var(--light-plaque);
+  border-style: solid;
+  border-color: var(--light-plaque);
+
+}
+input::placeholder{
+  
+  text-align: left;
+}
+
+
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.titre{
+  display: flex;
+  justify-content: flex-start;
+}
+.header-homepage{
+  display: flex;
+  justify-content: space-between;
+
+
+}

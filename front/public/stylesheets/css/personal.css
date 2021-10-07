@@ -1,0 +1,73 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+  margin-top: 10%;
+  position: relative;
+  background: #A8B7FF;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.gallery-cell {
+  width: 40%;
+  height: 400px;
+  margin-right: 10px;
+  background: linear-gradient(180deg, #7B8DE7 0%, #445381 100%);
+  border-radius: 33px;
+  counter-increment: gallery-cell;
+}
+
+#titre{
+  position: fixed;
+  margin-top: 11%;
+  font-family: "Passion-One_Regular";
+  font-size: max(2.3vw, 1.2em);
+  color: white;
+  background: #A8B7FF;
+  border:none;
+  width: 15%;
+  border-radius: 10px;
+}
+
+.acces {
+  margin-top: 5%; 
+  margin-left: 8%;
+  width: 25%;
+  height: 15%;
+  background: #7C93FF;
+  border: none;
+  border-radius: 10px;
+  color: #BFCAFF;
+  font-family: "Passion-One_Regular";
+  font-size: max(1.5vw, 0.5em);
+
+}
+
+.identite{
+  font-family: "Passion-One_Regular";
+  margin-left: 70%;
+  color: white;
+  font-size: max(1vw, 0.5em);
+
+}
+
+.plaques{
+ 
+  color: white;
+  font-size: max(2vw, 1.5em);
+  margin-left: 8%;
+
+}
+
+.horaire{
+ 
+  color: #7C93FF;
+  font-size: max(1vw, 0.5em);
+  margin-left: 8%;
+
+}

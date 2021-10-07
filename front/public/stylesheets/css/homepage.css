@@ -1,0 +1,81 @@
+body {
+  margin: 0 auto;
+  
+  background-image: url("../../../img/fond.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#homepage-container {
+  margin: 0 auto;
+  width: 50%;
+  height: 99vh;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#hpc-title {
+  width: 100%;
+  text-align: center;
+}
+#homepage-title {
+  font-family: 'Passion One';
+  font-size: 15vmin;
+  letter-spacing: 0.25px;
+  color: white;
+}
+#homepage-title-main {
+  fill: white;
+  opacity: 0.25;
+}
+#homepage-title-sub {
+  fill: white;
+}
+
+#hpc-description {
+  margin: 20px 0px;
+  padding: 0px 15%;
+  text-align: center;
+}
+#homepage-description {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  opacity: 0.75;
+}
+
+#hpc-button {
+  width: 50%;
+}
+#homepage-button-enter {
+  display: flex;
+  justify-content: space-between;
+  background-color: #97a9fc;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.homepage-button-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #4b5789;
+}
+
+.header-homepage{
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.titre{
+  display: flex;
+  justify-content: flex-start;
+}

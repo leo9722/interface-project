@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>invite</title>
+
+    <!-- Fichiers de style nécessaires à toutes les pages -->
+    <link rel="stylesheet" type="text/css" href="../public/stylesheets/css/fonts.css">    
+    <link rel="stylesheet" type="text/css" href="../public/stylesheets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="../public/stylesheets/css/header.css">
+    <link rel="stylesheet" type="text/css" href="../public/stylesheets/css/test.css">
+ 
+
+    <!-- Fichier de style relative à cette page -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <!-- Librairie JS -->
+      <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+    <script type="text/javascript" src="../public/js/ajax.js" defer></script>
+     <script type="text/javascript" src="../public/js/addprofil.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="../public/js/setup.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="../public/stylesheets/css/test.css" />
+    <script src="../public/js/caroussel.js" type="text/javascript" defer></script>
+    <script type="text/javascript" src="../public/js/ajax.js" defer></script>
+
+</head>
+<body>
+<!-- test -->
+    <section id="header"></section>
+
+<div class="gallery">
+  <div class="gallery-container">
+   <img class="gallery-item" src="1.jpg">
+    <img class="gallery-item" src="2.jpg">
+    <img class="gallery-item" src="3.jpg">
+    <img class="gallery-item" src="4.jpg">
+    <img class="gallery-item" src="5.jpg">
+  </div>
+  <div class="gallery-controls"></div>
+</div>
+
+<!-- Flickity HTML init -->
+
+
+
+<button class="open-button" onclick="openForm()">ajouter un invite</button>
+
+<div class="form-popup" id="myForm">
+  <form class="form-container">
+    <h1 id="title">AJOUTER UNE NOUVELLE PLAQUE</h1>
+
+   
+    <input class="npn" type="text" placeholder="NOM"  id="nom" required>
+
+    <input  class="npn" type="text" placeholder="PRENOM" id="prenom" required>
+
+    <input  class="npn" type="text" placeholder="NUMERO DE PLAQUE" id="plaques" required>
+
+    <input  class="npn" type="text" placeholder="URL" id="photo" required>
+
+    <button type="submit" id="adduser" class="btn">ajouter</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+</body>
