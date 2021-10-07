@@ -50,11 +50,3 @@ Il pourra être intéréssant de faire la commande suivante necéssaire au bon f
 Le VirtualHost est mis en place.
 
 RAPPEL: Pensez à vérifier le status du serveur afin de voir si tout fonctionne correctement !! ( commande : sudo service apache2 status)
-
-## Site pour increase en css
-
-[CSS - Index](https://css-tricks.com/almanac/)
-[CSS - Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-[CSS - Animation](https://css-tricks.com/almanac/properties/a/animation/)
-[CSS - Z-index](https://css-tricks.com/almanac/properties/z/z-index/)
-[CSS - text-shadow](https://css-tricks.com/almanac/properties/t/text-shadow/)
